@@ -5,6 +5,12 @@
 o item no campo de busca</h3>
 
 # O que foi feito?
+### Finalização do projeto
+<ul>
+  <li>Implementações no css</li>
+   <li>Correção de alguns problemas no HTML</li>
+</ul>
+
 ### Melhorando a lógica da busca e add mais options
 <ul>
   <li>Agora o campo de busca aceita caracteres maiúsculos</li>
@@ -16,10 +22,10 @@ o item no campo de busca</h3>
   <li>A parte lógica para a  filtragem já está funcinando</li>
 </ul>
 
-# O que vai ser implementado?
+# Features
 
 <ul>
-  <li>Um select para você possa selecionar as cores também - FEITO</li> 
-   <li>A cor selecionada vai  ser colocada no background</li>
-    <li>E um botão vai ser adicionado para que você consiga colocar a cor no background pelo campo de busca</li>
+   <li>Menu de busca para a filtragem dos items</li>
+   <li>Um select para que você possa mudar a seção de item que você deseja pesquisar</li>
+   <li>Responsivo</li>
 </ul>
