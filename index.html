@@ -12,13 +12,15 @@
         <div class="container-conteudo">
             <div>
                 <h3 class="titulo-conteudo">Pesquise suas cores</h3>
-                <input onkeyup="BUSCA_FRASE()" type="text" name="txt" id="texto-cores">
-                <select id="select-opcoes" onchange="filtraOption()">
-                    <option value="cores">Cores</option>
-                    <option value="nomes">Nomes</option>
-                    <option value="carros">Carros</option>
-                    <option value="lugares">Lugares</option>
-                </select>
+                <div class="container-busca">
+                    <input onkeyup="BUSCA_FRASE()" type="text" name="txt" id="texto-cores">
+                    <select id="select-opcoes" onchange="filtraOption()">
+                        <option value="cores">Cores</option>
+                        <option value="nomes">Nomes</option>
+                        <option value="carros">Carros</option>
+                        <option value="lugares">Lugares</option>
+                    </select>
+                </div>
             </div>
             <ul class="list-cores list-global" id="list-cores">
                 <li>Vermelho</li>
@@ -26,9 +28,7 @@
                 <li>branco</li>
                 <li>azul</li>
                 <li>azul marinho</li>
-                <li>azul médio</li>
-                <li>azul céu</li>
-                <li>lílas</li>
+                <li>lilás</li>
                 <li>roxo</li>
                 <li>rosa</li>
                 <li>amarelo</li>
