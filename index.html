@@ -13,8 +13,14 @@
             <div>
                 <h3 class="titulo-conteudo">Pesquise suas cores</h3>
                 <input onkeyup="BUSCA_FRASE()" type="text" name="txt" id="texto-cores">
+                <select id="select-opcoes" onchange="filtraOption()">
+                    <option value="cores">Cores</option>
+                    <option value="nomes">Nomes</option>
+                    <option value="carros">Carros</option>
+                    <option value="lugares">Lugares</option>
+                </select>
             </div>
-            <ul class="list-cores" id="list-cores">
+            <ul class="list-cores list-global" id="list-cores">
                 <li>Vermelho</li>
                 <li>preto</li>
                 <li>branco</li>
@@ -33,6 +39,26 @@
                 <li>laranja</li>
                 <li>ouro</li>
                 <li>prata</li>
+            </ul>
+            <ul class="list-nomes list-global" id="list-cores">
+                <li>Wesley</li>
+                <li>José</li>
+                <li>Maria</li>
+                <li>Jonathan</li>
+                <li>João</li>
+            </ul>
+            <ul class="list-carros list-global" id="list-cores">
+                <li>Audi</li>
+                <li>Chevrolet</li>
+                <li>Citroën</li>
+                <li>Dodge</li>
+                <li>Fiat</li>
+            </ul>
+            <ul class="list-lugares list-global" id="list-cores">
+                <li>Alasca</li>
+                <li>Grand Canyon</li>
+                <li>Terra Ronca</li>
+                <li>Deserto do Atacama</li>
             </ul>
         </div>
     </main>

@@ -22,7 +22,7 @@
   font-size: 17.5px;
 }
 
-.list-cores {
+.list-global {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -30,6 +30,6 @@
   font-family: sans-serif;
 }
 
-.list-cores li {
+.list-global li {
   margin-top: 5px;
 }
